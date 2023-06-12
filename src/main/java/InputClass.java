@@ -6,5 +6,6 @@ public class InputClass {
         String text;
         text = JOptionPane.showInputDialog("Введите текст");
         JOptionPane.showMessageDialog(null,"Вы ввели такой текст:\n"+ text);
+        System.out.println("Hasta la vista");
     }
 }
