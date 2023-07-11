@@ -1,0 +1,128 @@
+Index: src/main/java/Main2Class.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import javax.swing.*;\r\n\r\npublic class Main2Class {\r\n\r\n    public static void main(String[] args) {\r\n        String title;\r\n        String text;\r\n        title = JOptionPane.showInputDialog(null,\"Имя для окна:\", \"Название\", JOptionPane.WARNING_MESSAGE);\r\n\r\n        text = JOptionPane.showInputDialog(null, \"Текст сообщения:\", \"Содержание\", JOptionPane.PLAIN_MESSAGE );\r\n        JOptionPane.showMessageDialog(null,text,title,JOptionPane.INFORMATION_MESSAGE);\r\n    }\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/Main2Class.java b/src/main/java/Main2Class.java
+--- a/src/main/java/Main2Class.java	(revision a2f03c28f3f299dd63105822703ab8dae26991c7)
++++ b/src/main/java/Main2Class.java	(date 1684077858166)
+@@ -12,3 +12,4 @@
+     }
+ 
+ }
++
+Index: src/main/java/Branch4Class.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/Branch4Class.java b/src/main/java/Branch4Class.java
+new file mode 100644
+--- /dev/null	(date 1684077639667)
++++ b/src/main/java/Branch4Class.java	(date 1684077639667)
+@@ -0,0 +1,9 @@
++import javax.swing.*;
++
++public class Branch4Class {
++
++    public static void main(String[] args) {
++        JOptionPane.showMessageDialog(null,"4th branch, 6th commit");
++
++    }
++}
+Index: target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst b/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+new file mode 100644
+--- /dev/null	(date 1683551741483)
++++ b/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst	(date 1683551741483)
+@@ -0,0 +1,1 @@
++C:\Users\Igor\IdeaProjects\Java2\lesson899\src\main\java\MainClass.java
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\r\n  <component name=\"MavenProjectsManager\">\r\n    <option name=\"originalFiles\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/pom.xml\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_11\" project-jdk-name=\"11\" project-jdk-type=\"JavaSDK\" />\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision a2f03c28f3f299dd63105822703ab8dae26991c7)
++++ b/.idea/misc.xml	(date 1684077639654)
+@@ -8,5 +8,11 @@
+       </list>
+     </option>
+   </component>
++<<<<<<< HEAD
+   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
++=======
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++>>>>>>> 6e096246f85755e399be14c52b4a1fa96d526bf8
+ </project>
+\ No newline at end of file
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\r\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\r\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\r\n    <modelVersion>4.0.0</modelVersion>\r\n\r\n    <groupId>groupId</groupId>\r\n    <artifactId>lesson899</artifactId>\r\n    <version>1.0-SNAPSHOT</version>\r\n\r\n    <properties>\r\n        <maven.compiler.source>11</maven.compiler.source>\r\n        <maven.compiler.target>11</maven.compiler.target>\r\n    </properties>\r\n\r\n\r\n\r\n\r\n    <dependencies>\r\n        <!-- https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc -->\r\n\r\n\r\n    </dependencies>\r\n\r\n\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pom.xml b/pom.xml
+--- a/pom.xml	(revision a2f03c28f3f299dd63105822703ab8dae26991c7)
++++ b/pom.xml	(date 1684077790983)
+@@ -15,7 +15,6 @@
+ 
+ 
+ 
+-
+     <dependencies>
+         <!-- https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc -->
+ 
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"CompilerConfiguration\">\r\n    <annotationProcessing>\r\n      <profile name=\"Maven default annotation processors profile\" enabled=\"true\">\r\n        <sourceOutputDir name=\"target/generated-sources/annotations\" />\r\n        <sourceTestOutputDir name=\"target/generated-test-sources/test-annotations\" />\r\n        <outputRelativeToContentRoot value=\"true\" />\r\n        <module name=\"lesson899\" />\r\n      </profile>\r\n    </annotationProcessing>\r\n  </component>\r\n  <component name=\"JavacSettings\">\r\n    <option name=\"ADDITIONAL_OPTIONS_OVERRIDE\">\r\n      <module name=\"lesson899\" options=\"\" />\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+--- a/.idea/compiler.xml	(revision a2f03c28f3f299dd63105822703ab8dae26991c7)
++++ b/.idea/compiler.xml	(date 1684077796002)
+@@ -7,8 +7,12 @@
+         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+         <outputRelativeToContentRoot value="true" />
+         <module name="lesson899" />
++        <module name="lesson89" />
+       </profile>
+     </annotationProcessing>
++    <bytecodeTargetLevel>
++      <module name="lesson899" target="11" />
++    </bytecodeTargetLevel>
+   </component>
+   <component name="JavacSettings">
+     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1684077795992)
++++ b/.idea/modules.xml	(date 1684077795992)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/../lesson899.iml" filepath="$PROJECT_DIR$/../lesson899.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
