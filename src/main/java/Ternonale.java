@@ -7,5 +7,6 @@ public class Ternonale {
         int h = Integer.parseInt(j);
 
         JOptionPane.showMessageDialog(null,"I guess, your digit was: \n 77");
+        System.out.println(h);
     }
 }

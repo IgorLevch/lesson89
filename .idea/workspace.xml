@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ee0a0aa-458f-4a2d-a4eb-4a4d12a12f3c" name="Changes" comment="Commit 8" />
+    <list default="true" id="7ee0a0aa-458f-4a2d-a4eb-4a4d12a12f3c" name="Changes" comment="Commit 9">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/InputClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main2Class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main2ClassCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Optional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Optionalee2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ternonale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ternonale.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +36,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="branch4" />
+        <entry key="$PROJECT_DIR$" value="branch5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -124,7 +140,7 @@
       <workItem from="1688314804383" duration="1441000" />
       <workItem from="1688388739959" duration="2159000" />
       <workItem from="1688999001915" duration="1906000" />
-      <workItem from="1689073413731" duration="594000" />
+      <workItem from="1689073413731" duration="1436000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 4">
       <created>1683486767971</created>
@@ -224,6 +240,7 @@
     <MESSAGE value="Commit 5" />
     <MESSAGE value="Commit 7" />
     <MESSAGE value="Commit 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 8" />
+    <MESSAGE value="Commit 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 9" />
   </component>
 </project>
